@@ -9,7 +9,7 @@ class HomeModel extends ChangeNotifier{
   }
 
   void decrement(){
-    start++;
+    start--;
     notifyListeners();
   }
 }
